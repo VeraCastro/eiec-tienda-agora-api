@@ -18,6 +18,7 @@ def health() -> dict[str, str]:
     return {"status": "fail"}
 
 
+
 @app.get("/version")
 def version() -> dict[str, str]:
     """Devuelve información básica de versión."""
