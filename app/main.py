@@ -17,7 +17,6 @@ def health() -> dict[str, str]:
     """Smoke endpoint para validar que la API responde."""
     return {"status": "fail"}
 
-
 @app.get("/version")
 def version() -> dict[str, str]:
     """Devuelve información básica de versión."""
